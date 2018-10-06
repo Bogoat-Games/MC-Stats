@@ -1,0 +1,7 @@
+CHANGELOG
+----------------------------------
+V. 1.0.1
+  Created this changelog.
+  Added the version archive.
+  Added an automatic redirect to the latest version of MC Stats (in index.html).
+  Added a link to the version archive at the bottom of the MC Stats site.
