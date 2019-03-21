@@ -1,0 +1,21 @@
+<script>
+function doStuff(server) {
+	playername = document.getElementById("player_name").value;
+	if (server == "hypixel") {
+		window.location.href = "https://hypixel.net/player/" + playername;
+	} else if (server == "plancke") {
+		window.location.href = "https://plancke.io/hypixel/player/stats/" + playername;
+	} else if (server == "hivemc") {
+		window.location.href = "https://hivemc.com/player/" + playername;
+	} else if (server == "wynncraft") {
+		window.location.href = "https://wynncraft.com/stats/player/" + playername;
+	}
+}
+</script>
+<input type="text" id="player_name" value="" placeholder="Player name">
+<br>
+<img src="https://avatars2.githubusercontent.com/u/3840546?s=400&v=4" title="Hypixel-Hypixel" alt="HypixelLogo" onclick="dostuff('hypixel')">
+<img src="https://avatars2.githubusercontent.com/u/3840546?s=400&v=4" title="Hypixel-Hypixel" alt="HypixelLogo" onclick="dostuff('hypixel')">
+<img src="https://avatars2.githubusercontent.com/u/3840546?s=400&v=4" title="Hypixel-Hypixel" alt="HypixelLogo" onclick="dostuff('hypixel')">
+<img src="https://avatars2.githubusercontent.com/u/3840546?s=400&v=4" title="Hypixel-Hypixel" alt="HypixelLogo" onclick="dostuff('hypixel')">
+<!-- 4 img buttons for every server -->
