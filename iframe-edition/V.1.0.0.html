@@ -2,13 +2,13 @@
 function doStuff(server) {
 	playername = document.getElementById("player_name").value;
 	if (server == "hypixel") {
-		window.location.href = "https://hypixel.net/player/" + playername;
+		window.open("https://hypixel.net/player/" + playername);
 	} else if (server == "plancke") {
-		window.location.href = "https://plancke.io/hypixel/player/stats/" + playername;
+		window.open("https://plancke.io/hypixel/player/stats/" + playername);
 	} else if (server == "hivemc") {
-		window.location.href = "https://hivemc.com/player/" + playername;
+		window.open("https://hivemc.com/player/" + playername);
 	} else if (server == "wynncraft") {
-		window.location.href = "https://wynncraft.com/stats/player/" + playername;
+		window.open("https://wynncraft.com/stats/player/" + playername);
 	}
 }
 </script>
