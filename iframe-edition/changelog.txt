@@ -1,3 +1,10 @@
-COMING SOON
+ABOUT
+------------------------------------
+The iframe edition is a cleaner version of MC-Stats intended for using in small iframes.
+However, you are NOT allowed to use the iframe edition (or the normal version of MC-Stats) in your websites.
 
-(About this edition + changelog)
+CHANGELOG
+------------------------------------
+V.1.0.0
+Added this changelog.
+Created the iframe edition.
