@@ -1,1 +1,34 @@
+<script>
+function doStuff() {
+	playername = document.getElementById("player_name").value;
+	if (document.getElementById('server1').checked) {
+		window.location.href = "https://hypixel.net/player/" + playername;
+	} else if (document.getElementById('server2').checked) {
+		window.location.href = "https://plancke.io/hypixel/player/stats/" + playername;
+	} else if (document.getElementById('server3').checked) {
+		window.location.href = "https://hivemc.com/player/" + playername;
+	} else if (document.getElementById('server4').checked) {
+		window.location.href = "https://wynncraft.com/stats/player/" + playername;
+	}
+}
 
+version_string = "1.0.2"
+
+document.write("<title>MC Stats V." + version_string + "</title>");
+window.onload = function() {
+document.getElementById("VERSION").innerHTML=version_string;
+//this snippet of code is from https://stackoverflow.com/questions/14845710/javascript-variable-access-in-html
+//when the document is finished loading, replace everything
+//between the <a ...> </a> tags with the value of version_string
+}
+</script>
+<input type="text" id="player_name" value="" placeholder="Player name">
+<br>Select Server:
+<br><input type="radio" id="server1" name="server" value="Hypixel - Hypixel">Hypixel - Hypixel
+<br><input type="radio" id="server2" name="server" value="Hypixel - Plancke">Hypixel - Plancke
+<br><input type="radio" id="server3" name="server" value="HiveMC">HiveMC
+<br><input type="radio" id="server4" name="server" value="Wynncraft">Wynncraft
+<br><button onclick="doStuff()">Go!</button>
+<br>
+<br>Site Version: <a id="VERSION">fetching...</a>
+<br><a href="https://bogoat-games.github.io/MC-Stats/version-archive.html">Version Archive</a>
