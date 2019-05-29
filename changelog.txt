@@ -1,5 +1,10 @@
 CHANGELOG
 ----------------------------------
+V. 1.0.2
+  Created a variable that stores the version number so when making a new version, only 1 line needs to be changed.
+  Created the same variable for the index.html file.
+  Added pit.blue to the list of available websites.
+
 V. 1.0.1
   Created this changelog.
   Added the version archive.
