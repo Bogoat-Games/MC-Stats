@@ -6,8 +6,10 @@ function doStuff() {
 	} else if (document.getElementById('server2').checked) {
 		window.location.href = "https://plancke.io/hypixel/player/stats/" + playername;
 	} else if (document.getElementById('server3').checked) {
-		window.location.href = "https://hivemc.com/player/" + playername;
+		window.location.href = "https://pit.blue/profile?lookup=" + playername;
 	} else if (document.getElementById('server4').checked) {
+		window.location.href = "https://hivemc.com/player/" + playername;
+	} else if (document.getElementById('server5').checked) {
 		window.location.href = "https://wynncraft.com/stats/player/" + playername;
 	}
 }
@@ -26,8 +28,9 @@ document.getElementById("VERSION").innerHTML=version_string;
 <br>Select Server:
 <br><input type="radio" id="server1" name="server" value="Hypixel - Hypixel">Hypixel - Hypixel
 <br><input type="radio" id="server2" name="server" value="Hypixel - Plancke">Hypixel - Plancke
-<br><input type="radio" id="server3" name="server" value="HiveMC">HiveMC
-<br><input type="radio" id="server4" name="server" value="Wynncraft">Wynncraft
+<br><input type="radio" id="server3" name="server" value="The Pit (Hypixel)">The Pit (Hypixel)
+<br><input type="radio" id="server4" name="server" value="HiveMC">HiveMC
+<br><input type="radio" id="server5" name="server" value="Wynncraft">Wynncraft
 <br><button onclick="doStuff()">Go!</button>
 <br>
 <br>Site Version: <a id="VERSION">fetching...</a>
