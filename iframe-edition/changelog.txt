@@ -5,6 +5,9 @@ However, you are NOT allowed to use the iframe edition (or the normal version of
 
 CHANGELOG
 ------------------------------------
+V.1.0.1
+Added pit.blue to the website list
+
 V.1.0.0
 Added this changelog.
 Created the iframe edition.
